@@ -23,7 +23,7 @@ for c in contours:
         if as_ratio > 0.9 and as_ratio < 1.1:
             text = "Square"
         else:
-            tect = "Rectangle"
+            text = "Rectangle"
     elif len(approx) == 5:
         text = "Pentagon"
     elif len(approx) == 10:
@@ -34,7 +34,7 @@ for c in contours:
         if as_ratio > 0.9 and as_ratio < 1.1:
             text = "Circle"
         else:
-            tect = "Ellipse"
+            text = "Ellipse"
     
     cv.putText(img, text, (x, y), cv.FONT_HERSHEY_DUPLEX, 1, (255, 255, 255), 2)
 

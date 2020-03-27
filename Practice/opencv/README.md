@@ -21,6 +21,9 @@ As of now, I have learned the following methods/techniques in OpenCV (still lear
 17. Motion Detection using contours
 18. Basics of Image Histograms
 19. Template Matching
+20. Hough Transform for enge detection
+21. Face Detecton using Haar Cascade Classifiers
+22. Corner Detection using Harris Corner Detector and Shi Tomasi Detector
 
 I am learning OpenCV from this YouTube channel called "Programming Language" and it's AMAAZING!!!
 
@@ -28,4 +31,4 @@ https://www.youtube.com/playlist?list=PLS1QulWo1RIa7D1O6skqDQ-JZ1GGHKK-K
 
 All the implementation python files are in this repo. I have also created a folder which contains some photos/videos of implementation.
 
-P.S. The code expects the image and video(included in an another folder in this repo) referred in it, to be in same directory!! :P
+P.S. The I haven't used Jupyter notebooks for OpenCV practice, as I started it before the mentee selection and had no information before about using it. For other libraries I will be using Jupyter Notebooks.
