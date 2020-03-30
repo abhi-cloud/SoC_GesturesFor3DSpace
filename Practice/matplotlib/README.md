@@ -10,7 +10,7 @@ As of now, I have learned the following methods/techniques in Matplotlib (still 
 6. Plotting Time Series data and Real-Time data
 7. Subplots
 
-I am learnt Matplotlib basics from this YouTube channel called "Corey Schafer" and it's AMAAZING!!!
+I learnt Matplotlib basics from this YouTube channel called "Corey Schafer" and it's AMAAZING!!!
 Now I refer to the documentation for more detailing.<br>
 Check out the playlist
 <a href="https://www.youtube.com/playlist?list=PL-osiE80TeTvipOqomVEeZ1HRrcEvtZB_">here</a>
