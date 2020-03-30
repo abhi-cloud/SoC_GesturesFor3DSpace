@@ -12,6 +12,6 @@ As of now, I have learned the following methods/techniques in NumPy (still learn
 I am learning the library from a book called <b>"Python Data Science Handbook</b> by <b>"Jake VanderPlas"</b>
 Now I refer to the documentation for more detailing.<br>
 Check out the book
-<a href="https://www.youtube.com/playlist?list=PL-osiE80TeTvipOqomVEeZ1HRrcEvtZB_">here</a>
+<a href="https://jakevdp.github.io/PythonDataScienceHandbook/index.html">here</a>
 
 All the implementation python, jupyter notebook and the data files are in this repo.
