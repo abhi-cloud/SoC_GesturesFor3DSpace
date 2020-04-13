@@ -1,0 +1,4 @@
+# For hand-gesture recognition code
+
+The code implements a simple, naive stategy. We find contours in a particular area of the incoming frame, then determine the contour with the maximum enclosed area. Next step is to bound that contour, possibly with a convex polygon.<br>
+As it is not always possible to bound that with a convex polygon, then we find defects in the bounding polygon using the method *convexitydefects()*, which gives set of three points in the contour array where there are defects. Then we find the angle formed by the triangle, and find number of acute angles over all defects. The acute angles will be the ridges of the hand. So by calculating the number of acute angles, we can decide upon the number of fingers shown by the hand.
