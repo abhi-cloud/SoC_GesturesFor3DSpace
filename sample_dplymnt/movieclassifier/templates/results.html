@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Movie Review</title>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+	<h3>Your movie review:</h3>
+	<div>{{ content }}</div>
+
+	<h3>Prediction:</h3>
+	<div>
+		This movie review is
+		<strong>
+			{{prediction }}
+		</strong>
+		(Probability: {{ proba }}%).
+	</div>
+
+	<div id='button'>
+		<form action="/thanks" method="post">
+			<input type="submit" name='feedback_button' value="Correct">
+			<input type="submit" name='feedback_button' value="Incorrect">
+			<input type=hidden name="prediction" value="{{ prediction }}">
+			<input type=hidden name="review" value="{{ content }}">
+		</form>
+	</div>
+
+	<div id='button'>
+		<form action="/">
+			<input type="submit" name="resubmit" value="Submit Another Review">
+		</form>
+	</div>
+</body>
+</html>

@@ -1,0 +1,9 @@
+body{
+	width: 600px;
+	background-color: #898989;
+}
+.button{
+	margin-top: 30px;
+	padding-top: 20px;
+	background-color: #fafafa;
+}
