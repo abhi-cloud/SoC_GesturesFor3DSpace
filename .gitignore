@@ -1,3 +1,4 @@
 aclImdb_v1/
 movie_data.csv
 dogs-vs-cats_data/
+*.pt
