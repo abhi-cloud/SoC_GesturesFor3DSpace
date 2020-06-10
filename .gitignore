@@ -2,3 +2,9 @@ aclImdb_v1/
 movie_data.csv
 dogs-vs-cats_data/
 *.pt
+final_weights_VGG16.h5
+final_finetuned_weights_VGG16.h5
+unused_data/
+raw_datasets/
+FaceNet_weights/
+train_final.pickle
